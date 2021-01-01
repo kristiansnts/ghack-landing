@@ -1,0 +1,23 @@
+@media (max-width: 765px) {
+    .jumbo {
+        display: none;
+    }
+
+    .breadcrumb {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1085px) and (min-width: 720px) {
+    ol {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 765px) {
+    .jumbo-responsive {
+        display: none;
+        
+    }
+}

@@ -1,0 +1,272 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Website Fast</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Main CSS Configuration -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Responsive Model -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Webfont -->
+    <link href="https://webfonts.brand.ucsb.edu/webfont.min.css" rel="stylesheet">
+
+    <style>
+        .footer {
+            color: white;
+        }
+
+        .about-us-desc {
+            color: white;
+        }
+
+
+        .our-services-list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .our-services-page ul{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .pagination {
+            padding: 10px 0;
+        }
+
+        .pagination ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .pagination a {
+            display: inline-block;
+            padding: 10px 18px;
+            color: #222;
+        }
+
+        .pagination a {
+            width: 50px;
+            height: 5px;
+            padding: 0;
+            margin: auto 5px;
+            background-color: grey;
+        }
+
+        .pagination .is-active {
+            background-color: #f1f1f1;
+        }
+
+        .d-flex-center {
+            display: flex;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Wrapper Full Page -->
+    <div class="wrapper-all">
+        <!-- Wrapper Navbar -->
+        <div class="wrapper-navbar">
+            <!-- Top Navbar Container -->
+            <nav class="navbar container-fluid navbar-expand fixed-top navbarTop d-none d-md-block d-lg-block d-xl-block">
+                <ul class="container navbar-nav nav-justified w-75">
+                    <li><a href="#" class="navbar-brand"><img src="assets/logo/logo-ghack.png" alt="logo-ghack" width="30px" height="30px"></a></li>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#">Client</a></li>
+                    <li class="nav-item"><a href="#">Services</a></li>
+                    <li class="nav-item"><a href="#">Project</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <!-- Bottom Navbar Container / Responsive-->
+            <nav class="navbar navbar-expand d-md-none d-lg-none d-xl-none fixed-bottom" id="navbarBottom">
+                <ul class="navbar-nav nav-justified w-100">
+                    <li class="nav-item"><a href="#">Client</a></li>
+                    <li class="nav-item"><a href="#">Services</a></li>
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Project</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Wrapper Navbar End -->
+
+        <!-- Wrapper Jumbotron -->
+        <!-- Jumbotron -->
+        <div class="container jumbo w-75 col-md-9 ml-auto">
+            <!-- Project List {Need Javascript} -->
+            <div aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb ">
+					<li class="breadcrumb-item" id="fin">
+						<a href="#">Finished Project</a>
+					</li>
+					<li class="breadcrumb-item active">
+						<a href="#">Launch Ghack Official Page</a>
+					</li>
+				</ol>
+            </div>
+            <!-- Project List {Need Javascript} End-->
+
+            <!-- Jumbotron Title -->
+            <div class="container ml-2 mb-5 jumbo-text">
+                <h1><strong>Find Your Solution Faster</strong></h1>
+            </div>
+            <div class="container ml-2 jumbo-button">
+                <a class="btn btn-lg gradient-box" href="#">Get Started</a>
+            </div>
+        </div>
+            <!-- Jumbotron Title End-->
+
+        <!-- Jumbotron Responsive Mode -->
+        <div class="container jumbo-responsive">
+            <!-- Project List {Need Javascript} -->
+            <div aria-label="breadcrumb" class="mb-4 text-center">
+                <ol class="breadcrumb w-100">
+                    <li class="breadcrumb-item" id="fin">
+                        <a href="#">Finished Project</a>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <a href="#">Launch Ghack Official Page</a>
+                     </li>
+                </ol>
+            </div>
+             <!-- Project List {Need Javascript} End-->
+    
+             <!-- Jumbotron Title -->
+            <div class="container ml-2 mb-5 jumbo-text">
+                <h1><strong>Find Your Solution Faster</strong></h1>
+             </div>
+             <div class="container ml-2 jumbo-button">
+                  <a class="btn btn-lg gradient-box" href="#">Get Started</a>
+             </div>
+        </div>
+
+        <!-- Wrapper Jumbotron End -->
+
+        <!-- Wrapper About Us -->
+        <div class="container w-75 about">
+            <div class="row col-md-9 ml-2 mb-3">
+                <div class="col-md-7 col-xs-12 mr-auto about-us">
+                    <h5>"About Us"</h5>
+                </div>
+            </div>
+            <div class="row col-md ml-2">
+                <div class="col-md-6 col-xs-12 mr-auto about-us-desc">
+                    <p>Ghack Dev is Software House that offer best solution for your problem. We build your business perfect </p>
+                </div>
+            </div>
+        </div>
+        <!-- Wrapper About Us End -->
+
+        <!-- Wrapper Our Services -->
+        <div class="container w-75 services">
+            <div class="row mb-3">
+                <div class="col-md-5 col-xs-12 ml-auto our-services">
+                    <h5>"Our Services"</h5>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-5 col-xs-12 ml-auto our-services-desc">
+                    <p>Ghack Dev is Software House that offer best solution for your problem. We build your business perfect</p>
+                </div>
+            </div>
+            <div class="row our-services-list mb-4 text-center">
+                <div class="col-md-4 col-xs-12 box number-1 ml-5 mb-1">box 1</div>
+                <div class="col-md-4 col-xs-12 box number-2 mb-1">box 2</div>
+                <div class="col-md-3 col-xs-12 box number-3 mb-1">box 3</div>
+            </div>
+            <div class="row our-services-list text-center ">
+                <div class="col-md-4 col-xs-12 box number-1 ml-5 mb-3">box 1</div>
+                <div class="col-md-3 col-xs-12 box number-2 mb-3">box 2</div>
+                <div class="col-md-4 col-xs-12 box number-3 mb-3">box 3</div>
+            </div>
+            <div class="row col-md-1 col-xs-4 ml-auto mr-4 our-services-page pagination">
+                <ul>
+                    <a href="#" class="is-active"><li></li></a>
+                    <a href="#"><li></li></a>
+                </ul>
+            </div>
+        </div>
+        <!-- Wrapper Our Services End -->
+
+        <!-- Wrapper Project -->
+        <div class="container w-75 project">
+            <div class="row mb-3 d-flex-center">
+                <div class="col-md-4 col-xs-12 text-center project-head">
+                    <h5>Project</h5>  
+                </div>
+            </div>
+            <div class="row mb-3 d-flex-center">
+                <div class="col-md-6 col-xs-12 text-center project-desc">
+                    <p>Ghack Dev is Software House that offer best solution for your problem. We build your business perfect</p>
+                </div>
+            </div>
+
+            <!-- Image Gallery -->
+            <div class="container">
+                <div class="row d-block">
+                    <div class="col-md-6 box-nround float-left h-50">1</div>
+                    <div class="col-md-3 box-nround float-left h-25">2</div>
+                    <div class="col-md-3 box-nround float-left h-25">3</div>
+                </div>
+                <div class="row d-block">
+                    <div class="col-md-6 box-nround float-right h-50">1</div>
+                    <div class="col-md-3 box-nround float-right h-25">2</div>
+                    <div class="col-md-3 box-nround float-right h-25">3</div>
+                </div>
+            </div>
+            <!-- Image Gallery End -->
+        </div>
+        <!-- Wrapper Project End -->
+
+        <!-- Wrapper Client -->
+        <div class="container w-75 our-client">
+             <div class="row col-md-9 ml-2 mb-3">
+                <div class="col-md-7 col-xs-12 mr-auto our-client-head">
+                    <h5>"Our Client"</h5>
+                </div>
+            </div>
+            <div class="row ml-2">
+                <div class="col-md-6 col-xs-12 mr-auto ml-3 our-client-desc mb-3">
+                    <p>We’re Trustworthy and Friendly. Our Goal is make client happy.</p>
+                </div>
+            </div>
+            <div class="row ml-4 our-client-logo-head">
+                <h6>Our Last Client.</h6>
+            </div>
+            <div class="row ml-4 our-client-logo">
+                <div class="col-md-2"><img src="assets/logo/Microsoft-Logo.png" alt="Logo-microsoft" style="width: 100px; height: 30px;" ></div>
+                <div class="col-md-2"><img src="assets/logo/Logo_Google_2013_Official.png" style="width: 100px; height: 30px;" alt="Logo-google"></div>
+                <div class="col-md-2"><img src="assets/logo/Walmart-logo.png" style="width: 100px; height: 30px;" alt="Logo-walmart"></div>
+            </div>
+        </div>
+        <!-- Wrapper Client End -->
+        
+
+    <!-- Wrapper Full Page End -->
+    
+    <!-- Javascript -->
+    <script>
+        const mediaQuery = window.matchMedia('(max-width: 765px)');
+
+        function handleTableChange(e) {
+            if(e.matches) {
+                document.getElementsByClassName("breadcrumb").style.width = '100%';
+            }
+        }
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Javascript End -->
+</body>
+</html>

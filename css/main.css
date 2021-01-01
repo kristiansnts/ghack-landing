@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+	--gradient: linear-gradient(90deg, rgba(222,63,110,1) 0%, rgba(239,81,64,1) 100%);
+	--main-background: rgb(222,63,110);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    color: white;
+}
+
+body {
+    background-color:#101A3F; /*#101A3F*/
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 0.7em;
+}
+
+/* Navbar CSS Config */
+.nav-item a{
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+
+#navbarBottom {
+    background-color: #000825;
+    padding: 15px;
+}
+
+.navbarTop {
+    background-color: #000825;
+}
+
+.wrapper-navbar {
+    margin-bottom: 14%;
+}
+
+/* Jumbotron */
+.jumbo {
+    color: white;
+    margin-bottom: 15%;
+} 
+
+.breadcrumb {
+    background: #642952;
+    padding: 8px;
+    border-radius: 30px;
+    width: 35%;
+}
+
+.breadcrumb a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.breadcrumb li {
+    padding: 4px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before { 
+    content: "";
+}
+
+#fin {
+    background: #DE3F6D;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.jumbo-text {
+    width: 500px;
+    word-wrap: break-word;
+}
+
+.jumbo-text h1 {
+    font-size: 5em;
+}
+
+.gradient-box{
+    background: var(--main-background);
+    background: var(--gradient);
+}
+
+.jumbo-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+
+.jumbo-button a:hover{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px 22px 12x 22px;
+    box-shadow: 2px 1px 14px 0px rgba(255,255,255,0.25);
+}
+
+/* Jumbotron-responsive */
+.jumbo-responsive {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50%;
+}
+
+/* About Us */
+.about {
+    margin-bottom: 10%;
+}
+
+.about-us{
+    padding: 10px 10px 10px 20px;
+    background: var(--main-background);
+    background: var(--gradient);
+    border-radius: 5px;
+}
+
+.about-us h5 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.about-us-desc p {
+    font-size: 1.25em;
+}
+
+/* Our Services */
+.services {
+    margin-bottom: 10%;
+}
+
+.our-services{
+    padding: 10px 10px 10px 20px;
+    background: var(--main-background);
+    background: var(--gradient);
+    border-radius: 5px;
+}
+
+.our-services h5 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.our-services-desc p {
+    font-size: 1.25em;
+    text-align: right;
+}
+
+.box {
+    padding: 50px;
+    background: var(--main-background);
+    background: var(--gradient);
+    border-radius: 5px;
+}
+
+.box-nround {
+    padding: 50px;
+    background: #ddd;
+    border: 1px solid black;
+}
+
+/* Project Head */
+.project-head {
+    padding: 10px 40px 10px 40px;
+    background: var(--main-background);
+    background: var(--gradient);
+    border-radius: 5px;
+}
+
+.project-head h5 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.project-desc p {
+    font-size: 1.25em;   
+}
+
+/* Our Client*/
+.our-client {
+    margin-top: 50%;
+}
+
+.our-client-head {
+    padding: 10px 10px 10px 20px;
+    background: var(--main-background);
+    background: var(--gradient);
+    border-radius: 5px;
+}
+
+.our-client-head h5 {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.our-client-desc {
+    font-size: 1.25em;   
+}
+
+.our-client-logo-head h6 {
+    font-weight: bold;
+    color: white;
+}
